@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="heading">Select your choice</div>
+    <div class="buttons-list">
+      
+      <button class="active" onclick="fetchData('Men')" data-category="men">
+        men
+      </button>
+      <button onclick="fetchData('Women')" data-category="women">women</button>
+      <button onclick="fetchData('Kids')" data-category="kids">kids</button>
+    </div>
+    <div id="spinner-container" class="spinner-container">
+      <div class="spinner"></div>
+    </div>
+    <div class="listing-section"></div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
